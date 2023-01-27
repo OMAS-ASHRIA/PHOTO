@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/img/" />
+    <title>Slideshow</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url(./css/img/9.jpg);
+        opacity: initial;
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+      .mySlides {
+        display: none;
+      }
+      img {
+        margin-top: 1%;
+        vertical-align: right;
+        margin-left: 20%;
+        /* box-shadow: rgb(111, 104, 92) 50px 20px 2px ; */
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1500px;
+        /* position: relative; */
+        margin: 2px;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 10px;
+        border-color: rgb(174, 22, 22);
+        margin-top: -22px;
+        color: rgb(218, 142, 2);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 100px;
+        height: 10%;
+        border-radius: rgb(227, 4, 190) 3px 10 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(135, 11, 154, 0.658);
+      }
+
+      /* Caption text */
+      .text {
+        font-size: xx-large;
+        color: #9f4800;
+        font-size: 30px;
+        bottom: 108px;
+        width: 100%;
+        position: relative;
+        padding-left: 18%;
+        text-shadow: rgb(73, 68, 5) 3px 2px 1px;
+      }
+
+      .numbertext {
+        color: #d47a04f5;
+        font-size: 12px;
+        padding: 8px 12px 10px;
+        /* position: absolute; */
+        top: 0px;
+      }
+
+      .dot {
+        cursor: pointer;
+        position: relative;
+        height: 20px;
+        width: 20px;
+        background-color: rgb(184, 90, 69);
+        border-radius: 50%;
+        display: inline-block;
+        border-radius: 40% 10%;
+        transition: background-color 0.6s ease;
+        box-shadow: rgb(188, 166, 166) 2px 5px;
+      }
+      .active,
+      .dot:hover {
+        background-color: #aa00de;
+      }
+
+      Fading animation .fade {
+        animation-name: fade;
+        animation-duration: 1.8s;
+        animation-fill-mode: backwards;
+      }
+      @keyframes fade {
+        from {
+          opacity: 0.7;
+        }
+        to {
+          opacity: 8;
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 200px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="">1 / 5</div>
+        <img
+          src="./css/img/mami 23.jpg"
+          style="
+            width: 40%;
+            border-radius: 50%;
+            box-shadow: 30px 40px 70px 20px rgb(186, 198, 20);
+          "
+        />
+        <div class="text">GOLDEN SUN</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="majeedO">2 / 5</div>
+        <img
+          src="./css/img/majeedO.jpg"
+          style="
+            width: 40%;
+            border-radius: 50%;
+            box-shadow: 10px 20px 50px 20px rgb(192, 51, 26);
+          "
+        />
+        <div class="text">AFRIC</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="braa22">3 / 5</div>
+        <img
+          src="./css/img/braa22.jpg"
+          style="
+            width: 40%;
+            border-radius: 50%;
+            box-shadow: 10px 20px 30px 20px rgb(50, 99, 205);
+          "
+        />
+        <div class="text">AFRIC</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="oma2">4 / 5</div>
+        <img
+          src="./css/img/oma2.jpg"
+          style="
+            width: 50%;
+            border-radius: 50%;
+            box-shadow: 10px 20px 20px 20px rgba(225, 244, 23, 0.767);
+          "
+        />
+        <div class="text">Lifestyle</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="mami3">5 / 5</div>
+        <img
+          src="./css/img/MADINA.jpg"
+          style="
+            width: 50%;
+            border-radius: 50%;
+            box-shadow: 10px 20px 30px 20px rgb(50, 99, 205);
+          "
+        />
+        <div class="text">COULORFUL</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(1)">❮</a>
+      <a class="next" onclick="plusSlides(2)">❯</a>
+      <a class="next" onclick="plusSlides(3)">❯</a>
+      <a class="next" onclick="plusSlides(4)">❯</a>
+      <a class="next" onclick="plusSlides(5)">❯</a>
+      <a class="next" onclick="plusSlides(6)">❯</a>
+      <a class="next" onclick="plusSlides(7)">❯</a>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>

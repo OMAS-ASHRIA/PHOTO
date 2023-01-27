@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/img/" />
+    <title>ARTS GALLERY</title>
+</head>
+
+
+
+        <h1 style="background-color: rgba(100, 54, 172, 0.574);">MY ART GALLERY</h1>
+        </h1>
+   
+
+
+    <head><body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            * {
+                box-sizing: border-box;
+            }
+            body { margin: 0;
+            
+  background-image: linear-gradient(rgba(133, 22, 18, 0.463), rgba(255, 255, 0, 0.769));
+}
+
+
+            .header {
+                text-align: center;
+                padding: 32px;
+            }
+
+            .row {
+                display: -ms-flexbox;
+                /* IE 10 */
+                display: flex;
+                -ms-flex-wrap: wrap;
+                /* IE 10 */
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+
+            /* Create two equal columns that sits next to each other */
+            .column {
+                -ms-flex: 50%;
+                /* IE 10 */
+                flex: 50%;
+                padding: 0 4px;
+            }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+            }
+
+            /* Style the buttons */
+            .btn {
+                border: none;
+                outline: none;
+                padding: 10px 16px;
+                background-color: #f1f1f1;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+            .btn:hover {
+                background-color: #ddd;
+            }
+
+            .btn.active {
+                background-color: #666;
+                color: white;
+            }
+ 
+
+.footer{
+  background-color: #5d35ac6d;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  box-shadow: rgb(149, 127, 2) 10px 15px 21px 40px ;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+.footer-title{
+  font-size:1.5rem;
+  margin: 1rem 0;
+}
+.footer > ul > li{
+  line-height: 1;
+  
+}
+        </style>
+    </head>
+
+    <body>
+
+    </p> <a href="home.html">Home_page</a>
+    <a href="contacts.html">contacts</a>,
+   
+        <div class="header" id="myHeader">
+            <h1>Image Grid</h1>
+            <p>Click on the buttons to change the grid view.</p>
+            <button class="btn" onclick="one()">1</button>
+            <button class="btn active" onclick="two()">2</button>
+            <button class="btn" onclick="four()">4</button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="css/img/majeedO.jpg" style="width:90%">
+
+                <img src="css/img/ashria.jpg2.jpg" style="width:100%">
+               
+            </div>
+            <div class="column">
+                <img src="css/img/camera-1867184__340.jpg" style="width:100%">
+                <img src="css/img/sheberd.jpg" style="width:80%">
+            </div>
+            <div class="column">
+                <img src="css/img/sudan.jpg" style="width:90%">
+                <img src="css/img/flower.jpeg" style="width:90%">
+            </div>
+            <div class="column">
+                <!-- <img src="/css/img/1.jpg" style="width:100%"> -->
+                <img src="/css/img/.jpg" style="width:90%">
+                <img src="/css/img/camera__340.jpg" style="width:90%">
+            </div>
+        </div>
+        <script>
+            var elements = document.getElementsByClassName("column");
+
+            // Declare a loop variable
+            var i;
+
+            // Full-width images
+            function one() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.msFlex = "90%";  
+                    elements[i].style.flex = "60%";
+                }
+            }
+            // Two images side by side
+            function two() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.msFlex = "40%";  
+                    elements[i].style.flex = "40%";
+                }
+            }
+            // Four images side by side
+            function four() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.msFlex = "20%";  
+                    elements[i].style.flex = "30%";
+                }
+            }
+            var header = document.getElementById("myHeader");
+            var btns = header.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";});
+            }
+        </script>
+        </main>
+        <footer class="footer">
+    <ul>
+      <h5 class="footer-title">Contact</h5>
+      <li>Contact</li>
+      <li>Contact</li>
+      <li>Contact</li>
+    </ul>
+    <ul>
+      <h5 class="footer-title">Locations</h5>
+      <li>Locations</li>
+      <li>Locations</li>
+      <li>Locations</li>
+    
+    </ul>
+    <ul>
+      <h5 class="footer-title">Social</h5>
+      <li>Social</li>
+      <li>Social</li>
+      <li>Social</li>
+    
+    </ul>
+  </footer>
+  
+</body>
+
+</html>
