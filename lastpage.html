@@ -5,18 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/img/" />
+    <link rel="stylesheet" href="Css/style.css" />
     <title>ARTS GALLERY</title>
 </head>
 
 
+    <body>
 
         <h1 style="background-color: rgba(100, 54, 172, 0.574);">MY ART GALLERY</h1>
         </h1>
-   
-
-
-    <head><body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
 
@@ -25,15 +22,12 @@
             }
             body { margin: 0;
             
-  background-image: linear-gradient(rgba(133, 22, 18, 0.463), rgba(255, 255, 0, 0.769));
-}
-
-
+            background-image: linear-gradient(rgba(133, 22, 18, 0.463), rgba(255, 255, 0, 0.769));
+            }
             .header {
                 text-align: center;
                 padding: 32px;
             }
-
             .row {
                 display: -ms-flexbox;
                 /* IE 10 */
@@ -66,7 +60,6 @@
                 cursor: pointer;
                 font-size: 18px;
             }
-
             .btn:hover {
                 background-color: #ddd;
             }
@@ -75,9 +68,7 @@
                 background-color: #666;
                 color: white;
             }
- 
-
-.footer{
+      .footer{
   background-color: #5d35ac6d;
   width: 100%;
   height: 170px;
@@ -98,41 +89,9 @@
   
 }
         </style>
-    </head>
+  
+    </body>
 
-    <body>
-
-    </p> <a href="home.html">Home_page</a>
-    <a href="contacts.html">contacts</a>,
-   
-        <div class="header" id="myHeader">
-            <h1>Image Grid</h1>
-            <p>Click on the buttons to change the grid view.</p>
-            <button class="btn" onclick="one()">1</button>
-            <button class="btn active" onclick="two()">2</button>
-            <button class="btn" onclick="four()">4</button>
-        </div>
-        <div class="row">
-            <div class="column">
-                <img src="css/img/majeedO.jpg" style="width:90%">
-
-                <img src="css/img/ashria.jpg2.jpg" style="width:100%">
-               
-            </div>
-            <div class="column">
-                <img src="css/img/camera-1867184__340.jpg" style="width:100%">
-                <img src="css/img/sheberd.jpg" style="width:80%">
-            </div>
-            <div class="column">
-                <img src="css/img/sudan.jpg" style="width:90%">
-                <img src="css/img/flower.jpeg" style="width:90%">
-            </div>
-            <div class="column">
-                <!-- <img src="/css/img/1.jpg" style="width:100%"> -->
-                <img src="/css/img/.jpg" style="width:90%">
-                <img src="/css/img/camera__340.jpg" style="width:90%">
-            </div>
-        </div>
         <script>
             var elements = document.getElementsByClassName("column");
 
@@ -166,10 +125,42 @@
                 btns[i].addEventListener("click", function () {
                     var current = document.getElementsByClassName("active");
                     current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";});
-            }
+                    this.className += " active";}); }
+           
         </script>
         </main>
+
+        
+    </p> <a href="index.html">Home_page</a>
+    <a href="contacts.html">contacts</a>,
+   
+        <div class="header" id="myHeader">
+            <h1>Image Grid</h1>
+            <p>Click on the buttons to change the grid view.</p>
+            <button class="btn" onclick="one()">1</button>
+            <button class="btn active" onclick="two()">2</button>
+            <button class="btn" onclick="four()">4</button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="css/img/majeedO.jpg" style="width:90%">
+
+                <img src="css/img/ashria.jpg2.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="css/img/camera-1867184__340.jpg" style="width:100%">
+                <img src="css/img/sheberd.jpg" style="width:80%">
+            </div>
+            <div class="column">
+                <img src="css/img/sudan.jpg" style="width:90%">
+                <!-- <img src="css/img/flower.jpeg" style="width:90%"> -->
+            </div>
+            <div class="column">
+                <!-- <img src="/css/img/1.jpg" style="width:100%"> -->
+                <img src="/css/img/bona2.jpg" style="width:90%">
+                <img src="/css/img/camera__340.jpg" style="width:90%">
+            </div>
+        </div>
         <footer class="footer">
     <ul>
       <h5 class="footer-title">Contact</h5>

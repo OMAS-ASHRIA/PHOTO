@@ -1,139 +1,143 @@
 * .countinaer-0 {
-  background-color: rgb(180, 14, 153);
-  height: 80px;
-  width: 80px;
-  padding: 10%;
-  justify-items: baseline;
-  background-image: url(css/img/logooo3.jpg);
-  box-shadow: 40px 30px 20px 10px rgba(11, 0, 11, 0.792);
-  opacity: 100%;
+  height: 200px;
+  width: 170px;
+  padding: 8%;
+  background-image: url(Css/img/logooo3.jpg);
+  box-shadow: 40px 30px 40px 35px rgb(13, 4, 3);
   border-radius: 50%;
-  font-size: x-large;
-  border: 3px dotted rgb(7, 22, 233);
+  border: 4px dotted rgb(229, 130, 0);
   /* padding-inline: 20px;
     padding-top: 10%; */
-  margin-left: 0%;
-  margin-right: 1%;
+  padding-left: 6%;
+  margin-left: 5%;
+  margin-right: -1%;
+  margin-top: 10%;
 }
 
 .countinaer1 {
   background-color: rgba(108, 207, 3, 0.765);
-  height: 230px;
-  width: 230px;
-  box-shadow: 35px 42px 12px rgba(0, 0, 0, 0.76);
-  opacity: 80%;
+  height: 350px;
+  width: 350px;
+  opacity: 0.6px;
+  margin-right: 80%;
+  margin-top: -7%;
+  margin-left: 30%;
+  box-shadow: 35px 42px 12px rgba(2, 2, 2, 0.929);
+  opacity: 100%;
   border-radius: 50%;
   border: 3px dotted rgba(23, 226, 23, 0.918);
-  padding-bottom: 40px;
   /* background-color: rgb(200, 255, 0); */
   background-image: conic-gradient(
-    rgb(174, 0, 249) 45deg,
-    rgba(248, 248, 14, 0.662) 90deg,
-    rgba(11, 23, 195, 0.826) 210deg
+    rgba(174, 0, 249, 0.61) 45deg,
+    rgba(248, 248, 14, 0.639) 90deg,
+    rgba(195, 189, 11, 0.185) 210deg
   );
 }
 
 .countinaer2 {
-  background-image: url(css/img/bona.jpg);
+  background-image: url(css/img/royal.jpg);
+  padding: 5%;
   position: absolute;
   background-attachment: fixed;
-  background-color: rgba(127, 196, 30, 0.669);
+  background-color: rgb(25, 9, 255);
   /* display: flex; */
   align-items: center;
-  flex-direction: column;
   justify-content: flex-end;
-  height: 270px;
+  height: 290px;
   width: 270px;
-  box-shadow: 10px 15px 2px rgb(6, 1, 1);
+  box-shadow: 40px 35px 20px 20px rgb(8, 7, 7);
   opacity: 100%;
   border-radius: 100%;
   font-size: xx-large;
   border: 3px dotted rgba(180, 255, 4, 0.447);
-  margin-left: 9%;
+  margin-left: -1%;
   /* margin-right: auto; */
-  margin-top: 19%;
+  margin-top: 7%;
 }
 .button {
   display: flex;
-  width: 120px;
-  height: 120px;
+  width: 350px;
+  height: 350px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  /* border-radius: 0% 10% 0% 90%; */
   cursor: pointer;
-  background-color: #742204e2;
-  box-shadow: 5px 5px 2px rgba(1, 1, 1, 0.701);
+  background-color: #740404e2;
+  box-shadow: 85px 20px 40px 34px rgb(5, 5, 5);
   border: 3px dotted rgb(215, 190, 0);
   text-align: center;
   /* margin-left: 90%; */
   margin-bottom: -12%;
-  font-size: 2px;
-  color: #f5e4e1;
-  text-shadow: #1a1717 9px 2px 2px;
+  font-size: 30px;
+  color: #dbf20d;
+  text-shadow: #000000 5px 5px 4px;
   text-align: center;
-  margin-left: 19%;
-  margin-top: -22%;
+
+  margin-top: -100%;
+  margin-left: 495%;
 }
 .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #24ad0997;
-  box-shadow: 7px 5px 2px rgb(0, 0, 0);
+  background-color: #fff200;
+  box-shadow: 40px 50px 22px 30px rgba(0, 0, 0, 0.664);
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  font-size: 20px;
+  width: 230px;
+  height: 230px;
+  font-size: 30px;
   cursor: pointer;
   text-align: center;
-  color: rgb(242, 247, 246);
+  color: rgb(1, 8, 151);
   position: relative;
-  text-decoration-color: rgb(7, 7, 7);
+  text-decoration-color: rgb(5, 93, 234);
   text-decoration-line: underline;
-  text-shadow: #000000 9px 2px 2px;
+  text-shadow: #000000 4px 2px 2px;
   /* position: static; */
-  border: 5px double rgba(224, 9, 9, 0.534);
+  border: 5px double rgb(224, 23, 9);
+  margin-left: 590%;
+  margin-top: -280%;
 }
 .button-3 {
   display: flex;
-  background-color: #ae970396;
+  background-color: #ae03a596;
   /* top: 50%;
     left: 30%; */
-  box-shadow: 15px 5px 2px rgb(0, 0, 0);
+  box-shadow: 55px 50px 12px rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 370px;
+  height: 80px;
+  /* border-radius: 50%; */
   color: rgb(255, 255, 255);
-  text-decoration: underline rgb(250, 0, 250);
+  text-decoration: underline rgb(255, 0, 255);
   border: 3px dotted rgba(115, 0, 0, 0.534);
   text-shadow: #030303 19px 2px 2px;
-  font-size: small;
-  margin-left: 19%;
-  margin-top: -22%;
+  font-size: 30px;
+  margin-left: 9%;
+  margin-left: 690%;
+  margin-top: -100%;
 }
 .button-4 {
   display: flex;
-  background-color: #e305ac8b;
-  left: 30%;
+  background-color: #05e314;
   color: rgb(255, 255, 255);
-
   box-shadow: 40px 15px 20px 2px rgba(13, 4, 14, 0.587);
   text-decoration: underline rgb(10, 0, 10);
   text-shadow: #0d0c0c 3px 9px 2px;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  font-size: medium;
-  margin-left: 60%;
-  margin-top: -29%;
+  width: 200px;
+  height: 150px;
+  border-radius: 50% 20% 20% 10%;
+  margin-left: 700%;
+  margin-top: 0%;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
   border: 5px double rgba(181, 109, 0, 0.534);
 }
 .button:hover {
-  background-color: #f7080080;
+  background-color: #f70800e5;
 }
 .button1:hover {
   background-color: #5b0000;
@@ -142,13 +146,13 @@
   background-color: #2700d3;
 }
 .button2:hover {
-  background-color: #00d9b5;
+  background-color: #00fbd1;
 }
 .button-4:hover {
-  background-color: #05ee4b;
+  background-color: #6e05ee;
 }
 .button:active {
-  background-color: #881191;
+  background-color: #cd00dc;
   border-bottom: #9485c5;
 }
 :hover {
@@ -157,7 +161,7 @@
   color: rgba(175, 4, 254, 0.811);
 }
 body {
-  background-image: url(css/img/2.jpg);
+  background-image: url(css/img/royal.jpg);
   opacity: initial;
   background: cover;
   /* background-repeat: no-repeat; */
@@ -170,38 +174,37 @@ div {
 }
 
 h1 {
-  margin-top: 0px;
-  margin-left: 300px;
-  background-color: #7c00f0;
-  color: rgb(243, 241, 241);
+  margin-top: -100px;
+  margin-left: 90px;
+  background-color: #ed0000;
+  color: rgb(118, 5, 248);
   font-family: courier;
-  font-size: 200%;
+  font-size: 680%;
   text-decoration: double;
   text-decoration-line: underline;
-  text-decoration-color: #252523;
-  text-shadow: 5px 5px 2px rgb(127, 120, 120);
-  padding-top: 30%;
-  padding: 10%;
-  padding-left: 66%;
-  margin-top: -60%;
+  text-decoration-color: #140bbab7;
+  text-shadow: 25px 5px 2px rgb(10, 0, 0);
+  padding-top: 100%;
+  padding: 70%;
 }
 h2 {
   margin-left: 300px;
   color: rgb(255, 0, 0);
   font-family: courier;
-  font-size: 170%;
-  text-decoration-color: rgb(0, 15, 70);
+  font-size: 270%;
+  text-decoration-color: rgb(0, 52, 240);
   text-decoration: double;
   text-decoration-line: underline;
-  background-color: #2f08ba41;
-  text-shadow: #2d0202 7px 5px 2px;
-  padding-right: 500px;
-  padding-right: 500px;
+  background-color: #f3f3f3;
+  padding: 33%;
+  text-shadow: #000000 7px 5px 2px;
+  padding-right: 50px;
+  margin-top: 97%;
   text-justify: inter-cluster;
 }
 .overlay {
-  width: 50px;
-  height: 50px;
+  width: 5px;
+  height: 5px;
   background-color: rgb(244, 146, 146);
 }
 
@@ -223,4 +226,81 @@ h2 {
 }
 .footer > ul > li {
   line-height: 1;
+}
+
+.oma {
+  text-align: center;
+}
+fieldset {
+  padding: 2em;
+}
+form {
+  width: 580px;
+  margin: 3em auto;
+  border: 5px dashed gray;
+  padding: 2em;
+}
+fieldset:has(input[type="text"], input[type="email"]) {
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"],
+input[type="email"] {
+  border: 4px solid grey;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  transition: all 1s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border: 4px solid rgb(247, 0, 247);
+  outline: 1px dotted gray;
+}
+input[type="email"]:invalid {
+  border: 4px solid red;
+}
+input[type="email"]:valid {
+  border: 4px solid green;
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 4px solid black;
+}
+input[type="checkbox"]:checked {
+  background-color: red;
+  /* background-image: url("../img/dogs/check.jpg");
+  background-size: contain; */
+}
+input[type="checkbox"]:checked::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 20px;
+  border-width: 0 4px 4px 0;
+  border-color: rgb(21, 0, 255);
+  border-style: solid;
+  transform: translateX(9px) translateY(0px) rotate(45deg);
+}
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  outline: 2px solid black;
+}
+input[type="radio"]:checked {
+  background-color: rgb(0, 13, 255);
+}
+.checks {
+  display: flex;
+  align-items: center;
+}
+.option {
+  margin: 10px;
 }
